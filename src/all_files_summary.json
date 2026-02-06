@@ -1,0 +1,16 @@
+{
+  "backend/main.mo": "Empty Motoko actor with no implemented methods.",
+  "feature_evidence.json": "Metadata describing a feature update that changes the hero message text in the homepage App.tsx file.",
+  "frontend-file-summaries.txt": "Prewritten summaries of several frontend files including App, styles, config, and components.",
+  "frontend/index.css": "Tailwind base styles defining a warm OKLCH color palette for light and dark modes with global background and text variables.",
+  "frontend/index.html": "HTML entry point loading fonts, favicon, and bootstrapping the React app.",
+  "frontend/src/App.tsx": "Main React component rendering the romantic homepage with hero message, dating info, and memories gallery.",
+  "frontend/src/components/ImageLightbox.tsx": "Modal component that displays a full-size image with close controls and Escape/overlay handling.",
+  "frontend/src/components/MemoriesGallery.tsx": "Interactive grid gallery of memory photos with click‑to‑open lightbox functionality.",
+  "frontend/src/hooks/useActor.ts": "React hook creating and managing a backend actor, updating when identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Context and hooks for managing Internet Identity login, logout, and stored identity state.",
+  "frontend/src/index.css": "Tailwind base styles defining a romantic warm color palette and global typography settings.",
+  "frontend/src/main.tsx": "App entry point setting up React, query client, Internet Identity provider, and global CSS.",
+  "frontend/tailwind.config.js": "Configures Tailwind with custom colors, fonts, container settings, animations, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Defines project state metadata, including existing and pending feature requests for updating the homepage hero message."
+}

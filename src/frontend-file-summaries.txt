@@ -1,0 +1,8 @@
+{
+  "frontend/src/App.tsx": "Main application component displaying a romantic homepage with hero section featuring the updated message \"I love you with all my hearts, and i am proud of you who you are!!\", dating information, and integrated memories gallery section with warm rose-themed design.",
+  "frontend/src/index.css": "Global stylesheet defining a romantic warm color palette using OKLCH color system with rose, pink, and amber tones for both light and dark modes, avoiding blue/purple dominance.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Playfair Display serif font for romantic typography and maintaining the warm rose-themed color tokens.",
+  "frontend/index.html": "HTML entry point with favicon reference, Google Fonts (Playfair Display and Inter), and personalized title for the dedication website.",
+  "frontend/src/components/MemoriesGallery.tsx": "Responsive photo gallery component displaying 11 memory photos in a grid layout with hover effects and click-to-open lightbox functionality.",
+  "frontend/src/components/ImageLightbox.tsx": "Lightweight modal/lightbox component for viewing full-size images with close button, backdrop click dismissal, and keyboard Escape support."
+}

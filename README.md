@@ -1,2 +1,3 @@
-# personal-dedication-website-homepage-with-roses-flowers-animated-gif
-Exported from Caffeine project: Update homepage hero message with provided quote
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

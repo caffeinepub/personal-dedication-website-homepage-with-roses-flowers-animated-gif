@@ -1,0 +1,23 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-replace-the-existing-hero-message-text-on-the-homepage-with-the-exact-user-provided-quote-i-love-you-with-all-my-hearts-and-i-am-proud-of-you-who-you-are",
+      "featureTitle": "Replace the existing hero message text on the homepage with the exact user-provided quote: “I love you with all my hearts, and i am proud of you who you are!!”.",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

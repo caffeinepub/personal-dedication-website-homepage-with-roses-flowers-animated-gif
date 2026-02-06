@@ -1,0 +1,37 @@
+{
+  "kind": "build_request",
+  "title": "Update homepage hero message with provided quote",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Replace the existing hero message text on the homepage with the exact user-provided quote: “I love you with all my hearts, and i am proud of you who you are!!”.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "Just write “I love you with all my hearts, and i am proud of you who you are!!”"
+        ]
+      },
+      "acceptanceCriteria": [
+        "In the hero section message area (currently showing “Every moment with you is a beautiful memory in the making”), the displayed text is exactly: “I love you with all my hearts, and i am proud of you who you are!!”.",
+        "The updated quote appears in both light and dark mode with the existing styling (italic, centered, romantic theme) preserved.",
+        "No backend changes are required to display the updated quote."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files under frontend/src/components/ui or any other immutable paths listed in SYSTEM_CONTEXT.",
+    "Keep all user-facing text in English."
+  ],
+  "nonGoals": [
+    "Adding edit controls or admin UI to change the message from the browser.",
+    "Persisting the message in the backend or adding any new backend APIs."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

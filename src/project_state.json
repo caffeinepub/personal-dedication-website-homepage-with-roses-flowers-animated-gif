@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Project includes updating a live page to display a custom message/quote.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-replace-the-existing-hero-message-text-on-the-homepage-with-the-exact-user-provided-quote-i-love-you-with-all-my-hearts-and-i-am-proud-of-you-who-you-are",
+      "title": "Replace the existing hero message text on the homepage with the exact user-provided quote: “I love you with all my hearts, and i am proud of you who you are!!”.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Add the provided quote/message to the page: “I love you with all my hearts, and i am proud of you who you are!!”",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Update homepage hero message with provided quote",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
